@@ -1,0 +1,21 @@
+Package: Orascoptic
+Title: INVORASCOPIC
+Version: 0.0.0.9000
+Authors@R: person('John', 'Lecocq', email = 'john@innovativeoptics.com', role = c('cre', 'aut'))
+Description: An app that Orascoptic may use to quickly recommend laser safety inserts to their customers.
+License: MIT + file LICENSE
+Imports: 
+    bslib,
+    config (>= 0.3.1),
+    dplyr,
+    glue,
+    golem (>= 0.4.0),
+    magrittr,
+    pkgload,
+    readxl,
+    scales,
+    shiny (>= 1.7.4),
+    stringr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
